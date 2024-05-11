@@ -1,0 +1,28 @@
+body {
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial Black', sans-serif;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    border: 2px solid black; /* 四角形のボーダー */
+    padding: 20px; /* テキストとボーダーの間のスペース */
+    background-color: #f9f9f9; /* ボックスの背景色 */
+}
+
+.centered-text {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    margin: 0; /* テキストのマージンをリセット */
+    font-family: 'Arial Black', sans-serif; /* フォントファミリーを設定 */
+}

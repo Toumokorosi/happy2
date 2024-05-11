@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="centered-container">
+        <div class="box">
+            <div class="centered-text" id="click-text">
+                <font size="25" face="arial black">こちらをクリック!</font>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // テキストをクリックした時の処理を追加
+        document.getElementById("click-text").addEventListener("click", function() {
+            window.location.href = "https://347f-2400-2652-1c2-5a00-5516-e6b3-988b-24f1.ngrok-free.app/"; // ここに遷移先のURLを入力
+        });
+    </script>
+</body>
+</html>
